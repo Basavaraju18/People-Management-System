@@ -1,0 +1,56 @@
+
+.mainContainer {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0%;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ .Head {
+   background-color: #beb4b4;
+   padding: 0px;
+   margin: 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .Head h1 {
+   margin: 0;
+ }
+ 
+ .Head ul {
+   list-style: none;
+   display: flex;
+   gap: 20px;
+ }
+ 
+ .Head ul li {
+   margin: 0;
+ }
+ 
+ .Head ul li a {
+   text-decoration: none;
+   color: #333;
+   font-weight: bold;
+   transition: color 0.3s ease;
+ }
+ 
+ .Head ul li a:hover {
+   color: #007bff;
+ }
+
+ .Home  {
+   background-color: rgb(24, 220, 220);
+   height:430px;
+   width:1200px ;
+}
+
+.Career {
+   background-color: rgb(60, 176, 176);
+   height:430px;
+   width:1200px ;
+}
